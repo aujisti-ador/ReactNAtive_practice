@@ -13,10 +13,12 @@ class Home extends Component {
             '         officia deserunt mollit anim id est laborum.dfjldkjf jkhjh'
     }
 
+    updateState = () => this.setState({myState: 'The state is updated'})
+
     render() {
         return (
             <View>
-                <Text>
+                <Text onPress={this.updateState}>
                     {this.state.myState}
                 </Text>
             </View>
@@ -39,7 +41,7 @@ const styles = StyleSheet.create({
     },
     instructions: {
         textAlign: 'left',
-        color: '#333333',
+        color: '#a81b1b',
         marginBottom: 5,
     }
 });
