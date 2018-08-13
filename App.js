@@ -8,8 +8,9 @@
 
 import React, {Component} from 'react';
 import {View} from 'react-native';
-import Home from './Components/Home';
-import Bananas from "./Components/Bananas";
+import Home from './src/Components/Home';
+import Bananas from "./src/Components/Bananas";
+import Album from "./src/Components/Album";
 
 export default class App extends Component{
 
@@ -17,7 +18,8 @@ export default class App extends Component{
         return (
             <View>
                 {/*<Home/>*/}
-                <Bananas/>
+                {/*<Bananas/>*/}
+                <Album/>
             </View>
         );
     }
