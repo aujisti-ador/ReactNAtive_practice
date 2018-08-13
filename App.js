@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {View} from 'react-native';
 import Home from './Components/Home';
 
 export default class App extends Component{
@@ -15,7 +15,7 @@ export default class App extends Component{
     render() {
         return (
             <View>
-                <Home />
+                <Home/>
             </View>
         );
     }
