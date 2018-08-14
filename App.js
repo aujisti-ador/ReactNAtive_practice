@@ -19,7 +19,7 @@ export default class App extends Component{
             <View>
                 {/*<Home/>*/}
                 {/*<Bananas/>*/}
-                <Album/>
+                <Album />
             </View>
         );
     }
